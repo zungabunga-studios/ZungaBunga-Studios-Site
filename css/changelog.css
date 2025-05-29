@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+p#add-zbs {
+    color: #00ff04;
+    text-shadow: 3px 2px 5px #0000007b;
+}
+
+.list {
+    margin-bottom: 3.5px;
+}
