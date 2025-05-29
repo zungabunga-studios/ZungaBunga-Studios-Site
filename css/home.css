@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@import url('../default/default.css');
+
+h1#tile-main {
+    font-family: var(--spot-monkey);
+    margin-bottom: 3px;
+}
+
+ul#list-esq {
+    margin: 12px;
+    margin-left: 6px;
+}
+
+footer > ul {
+    list-style-type: inherit;
+    margin-left: 20px;
+}
+
+h3#title-sb {
+    margin-bottom: 4px;
+    color: #cccccc;
+}
+
+.center {
+    text-align: center;
+}

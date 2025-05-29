@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@import url('../default/default.css');
+
+@media screen and (min-width: 320px) and (max-width: 460px) {
+    ul#list-esq {
+        margin: auto;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 775px) {
+    ul#list-esq {
+        margin: 12px;
+    }
+
+    p#html-desc {
+        margin: auto;
+        width: 50%;
+    }
+}

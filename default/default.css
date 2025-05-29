@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face { /*CreatoDisplay Regular font*/
+    font-family: 'CreatoDisplay Regular';
+    src: url('../fonts/creato_display/CreatoDisplay-Regular.otf') format(opentype);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Spot Monkey';
+    src: url('../fonts/spot_monkey/Spot\ Monkey.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --creatodisplay-regular: 'CreatoDisplay Regular', Arial, Verdana, Helvetica, sans-serif;
+    --spot-monkey: 'Spot Monkey', Verdana, Geneva, Tahoma, sans-serif;
+    --arial: Arial, Verdana, Helvetica, sans-serif;
+    --brownie: #3b1411;
+}
+
+body {
+    font-family: var(--creatodisplay-regular);
+}
+
+main { 
+    margin: auto;
+    background-color: #ababab;
+    padding: 5.6px;
+}
+
+article {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding: 3px;
+}
+
+ol, ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: var(--brownie);
+    font-weight: 700;
+    transition: all .36s;
+}
+
+menu > ul > li > a:hover {
+    background-color: var(--brownie);
+    color: #e8e8e8;
+}
+
+menu {
+    display: block;
+    background-color: #e8e8e8;
+    border-bottom-right-radius: 6.5px;
+    border-bottom-left-radius: 6.5px;
+    padding-left: 1px;
+    width: 1103.150;
+    height: 39.282;
+    margin: 0px;
+}
+
+i#menu-open {
+    background-color: #e8e8e8;
+    color: var(--brownie);
+    padding-bottom: 4px;
+    border-radius: 0px;
+    font-size: 1.66em;
+    width: 100%;
+    text-align: center;
+    transition-duration: .36s;
+}
+
+i#menu-open:hover {
+    background-color: var(--brownie);
+    color: #e8e8e8;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #080808;
+    color: #f1f1f1;
+    padding: 8px;
+    line-height: 1.4em;
+}
+
+a.link-footer {
+    color: #bbb;
+    text-decoration: none;
+}
+
+a.link-footer:hover {
+    text-decoration: underline;
+}
